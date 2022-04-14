@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+}
+.Div {
+    width: 500px;
+    height: 250px;
+    border: 2px solid rgb(196, 76, 76);
+    background: rgb(119, 86, 86);
+    text-align: center ;
+    <--!padding-top: 50%;>
+    
+}

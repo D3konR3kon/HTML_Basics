@@ -1,0 +1,18 @@
+#myProf{
+    margin: auto;
+    background-color: aqua;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+#imgCover{
+    text-align: center;
+    padding-top: 50px;
+    
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
