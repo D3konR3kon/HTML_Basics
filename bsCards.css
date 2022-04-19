@@ -1,0 +1,11 @@
+body {
+    margin-left: 0.5em;
+}
+.container-fluid{
+    
+}
+.card {
+    margin: 0.5em;
+    padding: auto;
+    text-align: center;
+}
