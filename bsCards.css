@@ -1,11 +1,17 @@
 body {
-    margin-left: 0.5em;
+    
 }
-.container-fluid{
+.container{
+    
+    border: 5px solid beige !important;
     
 }
 .card {
     margin: 0.5em;
     padding: auto;
-    text-align: center;
+    text-a lign: center;
+}
+.btn {
+    border: 5px solid purple;  
+ 
 }
