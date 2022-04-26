@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test Input</title>
+    
 </head>
 <body>
-    
+
+    <div class="container">
+        <div class="row">
+            <input type="text" name="" >
+        </div>
+    </div>
+    <FORM NAME="myform" ACTION="" METHOD="GET">Enter something in the box: <BR>
+        <INPUT TYPE="text" NAME="inputbox" VALUE=""><P>
+        <INPUT TYPE="button" NAME="button" Value="Click" onClick="testResults(this.form)">
+    </FORM>
+
+
+
+
+
+    <script>
+        function testResults (form) {
+        var TestVar = form.inputbox.value;
+        alert ("You typed: " + TestVar);
+        }
+    </script>
 </body>
 </html>
