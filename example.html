@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outputScreen{
+            width: 175px;
+            height: 20px;
+            border: 1px solid rgb(46, 45, 45);
+        }
+    </style>
+</head>
+<body>
+   
+    <h3>Please enter a number.</h3>
+    <input id = "inputScreen" type="text" ><p></p>
+   <button type="button" onclick="picANum()">Generate a number</button>
+    <p></p>
+    <div ><p id="outputScreen" class="screen"></p></div>
+    <button type="button" onclick="resetor()">Clear</button>
+
+    
+
+<script>
+function resetor(){  
+   document.getElementById("outputScreen").innerHTML = "";  
+ }   
+
+    function picANum(){
+    let newN = document.getElementById("inputScreen").value;
+    if (newN == "") {
+        let errorMessage = "You have not entered anything ";
+        document.querySelector("h3").innerHTML=errorMessage;
+    }else if(isNaN(newN) == true){
+        let errorMessages = "Please enter a number.";
+        document.querySelector("h3").innerHTML=errorMessages;
+        }
+    else{
+        let randomNum = Math.ceil(Math.random(newN)*10)
+        document.getElementById("outputScreen").innerHTML=randomNum;
+        }
+    }
+    
+</script>
+</body>
+</html>
